@@ -1,0 +1,56 @@
+                  
+<div style="display: flex; flex-direction: column; padding: 4rem 2rem;">
+
+    <div class="container" style=" display: flex; justify-content: space-between;">
+        <div style="margin-left: 0rem;">
+            <h2 class="text-primary"> Men's Collection </h2>
+        </div>
+        <div>
+
+            <div>
+                <div mdbDropdown class="dropdown">
+                    <button
+                      class="btn btn-primary dropdown-toggle"
+                      type="button"
+                      id="dropdownMenuButton"
+                      aria-expanded="false"
+                      mdbDropdownToggle
+                    >
+                      Sort
+                    </button>
+                    <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">Price(lowest first)</a></li>
+                      <li><a class="dropdown-item" href="#">Price(highest first)</a></li>
+                      <li><a class="dropdown-item" href="#">rating</a></li>
+                    </ul>
+                  </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container" style="display: flex; flex-direction: row;">
+        <div style=" margin-left: 3rem;">
+            <h4 style="margin: 2rem 0rem;">Apply Filter</h4>
+            <hr>
+            <p>adasdfasasfsafsfaf</p>
+            <hr>
+            <p>adasdfas</p>
+            <hr>
+            <p>adasdfas</p>
+            <hr>
+            <p>adasdfas</p>
+            <hr>
+            <p>adasdfas</p>
+            <hr>
+        </div>
+
+        <div class="vr" style="margin: 0rem 4rem; background-color: lightgray;"></div>
+        <div style="display: flex; flex-wrap: wrap;">
+            <app-card *ngFor="let item of products" [product]="item"> </app-card>
+        </div>
+    </div>
+</div>

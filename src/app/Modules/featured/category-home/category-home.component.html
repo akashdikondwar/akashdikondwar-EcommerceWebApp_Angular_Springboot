@@ -1,0 +1,20 @@
+
+
+    <div style="margin: 10px 0;">
+        <nav class="navbar navbar-dark " style="background-color: rgb(96, 96, 96);">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">{{title}}</span>
+            </div>
+        </nav>
+    </div>
+    <div class="" >
+        <div class="cardsContainer" >
+    
+            <app-card *ngFor="let item of products" [product]="item"> </app-card>
+
+            <div class="btnContainer">
+                <button type="button" class="btn btn-secondary" style="height: 3rem;">See More>></button>
+            </div>
+        </div>
+        <br>
+    </div>

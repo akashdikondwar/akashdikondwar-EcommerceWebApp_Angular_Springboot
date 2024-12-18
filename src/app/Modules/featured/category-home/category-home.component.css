@@ -1,0 +1,12 @@
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}

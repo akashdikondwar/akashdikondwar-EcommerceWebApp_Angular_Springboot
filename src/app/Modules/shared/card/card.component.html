@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="bg-image hover-overlay" mdbRipple rippleColor="light">
+      <img [src]="product.imageUrl" class="img-fluid"/>
+      <a href="#!">
+        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+      </a>
+    </div>
+    <div class="card-body" style="padding: 0.5rem;">
+      <!-- <hr> -->
+      <p class="card-text" style="font-size: small; margin: 0px;">{{product.title}}</p>
+      <!-- <hr> -->
+      <div class="buttonDiv">
+        <p class="card-text" style="text-align: center; color: orange; font-weight: bolder;font-size: small;margin: 0%;">{{product.price}} rs.</p>
+          <a href="#!" class="btn btn-primary">Add to Cart</a>
+
+      </div>
+    </div>
+  </div>

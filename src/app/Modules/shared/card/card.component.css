@@ -1,0 +1,17 @@
+img{
+    width: 18rem;
+    height: 18rem;
+}
+
+
+.card{
+    width: 13rem;
+    height: 22rem;
+    margin: 1rem;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
